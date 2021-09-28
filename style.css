@@ -1,0 +1,57 @@
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 500px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.torre {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 200px;
+    height: 390px;
+    /* padding-left: 100px; */
+    /* border: black solid 5px; */
+
+}
+
+.vareta {
+    height: 180px;
+    width: 10px;  
+    background-color: brown;
+    position: absolute;
+    z-index: 1;
+}
+
+.disk1 {
+    height: 20px;
+    width: 40px;
+    background-color: red;
+    z-index: 2;
+}
+
+.disk2 {
+    height: 20px;
+    width: 60px;
+    background-color: green;
+    z-index: 2;
+}
+
+.disk3 {
+    height: 20px;
+    width: 80px;
+    background-color: white;
+    z-index: 2;
+}
+
+.disk4{
+    height: 20px;
+    width: 110px;
+    background-color:tomato;
+    z-index: 2;
+}
