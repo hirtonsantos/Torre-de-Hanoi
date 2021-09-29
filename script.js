@@ -31,9 +31,42 @@ argolas.forEach(argola => {
     argola.addEventListener('dragend', dragend)
 })
 
+function dragstart() {
+    //console.log('Argola: Start dragging ')
+
+    this.classList.add('is-dragging')
+}
+function drag() {
+    //console.log('Argola: is dragging ')
+}
+function dragend() {
+    //console.log('Argola: Stop dragging ')
+
+    this.classList.remove('is-dragging')
+}
 
 
-dragenter
-dragover
-dragleave
-drop
+dropzones.forEach(dropzone => {
+    dropzone.addEventListener('dragenter', dragenter)
+    dropzone.addEventListener('dragover', dragover)
+    dropzone.addEventListener('dragenter', dragleave)
+    dropzone.addEventListener('drop', drop)
+})
+
+function dragenter() {
+    
+}
+
+function dragover() {
+    const argolaOver = document.querySelector('.is-dragging')
+    this.appendChild(argolaOver)
+
+}
+
+function dragleave() {
+    
+}
+
+function drop() {
+    
+}

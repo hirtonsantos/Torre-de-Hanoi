@@ -7,23 +7,23 @@
 .torre {
     display: flex;
     justify-content: space-evenly;
+    
     min-width: 20%;
     padding: 16px;
 }
 
 .dropzone {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column-reverse; 
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 5px;
     height: 80px;
     background-color: blue;
     border-radius: 50px;
 }
 
-#argola1 {
-    
+#argola3 {
     width: 30px;
     background-color: red;
     height: 10px;
@@ -31,15 +31,13 @@
 }
 
 #argola2 {
-    
     width: 40px;
     background-color: green;
     height: 10px;
     border-radius: 50px;
 }
 
-#argola3 {
-    
+#argola1 {
     width: 50px;
     background-color: brown;
     height: 10px;
