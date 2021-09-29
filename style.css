@@ -1,57 +1,47 @@
-section {
+.torres{
     display: flex;
-    flex-wrap: nowrap;
-    max-width: 500px;
-    height: 400px;
-    background-color: aqua;
+    justify-content: space-evenly;
+    
 }
 
 .torre {
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 20%;
+    padding: 16px;
+}
+
+.dropzone {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-items: center;
     justify-content: flex-end;
-    width: 200px;
-    height: 390px;
-    /* padding-left: 100px; */
-    /* border: black solid 5px; */
-
+    width: 5px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50px;
 }
 
-.vareta {
-    height: 180px;
-    width: 10px;  
-    background-color: brown;
-    position: absolute;
-    z-index: 1;
-}
-
-.disk1 {
-    height: 20px;
-    width: 40px;
+#argola1 {
+    
+    width: 30px;
     background-color: red;
-    z-index: 2;
+    height: 10px;
+    border-radius: 50px;
 }
 
-.disk2 {
-    height: 20px;
-    width: 60px;
+#argola2 {
+    
+    width: 40px;
     background-color: green;
-    z-index: 2;
+    height: 10px;
+    border-radius: 50px;
 }
 
-.disk3 {
-    height: 20px;
-    width: 80px;
-    background-color: white;
-    z-index: 2;
-}
-
-.disk4{
-    height: 20px;
-    width: 110px;
-    background-color:tomato;
-    z-index: 2;
+#argola3 {
+    
+    width: 50px;
+    background-color: brown;
+    height: 10px;
+    border-radius: 50px;
 }
