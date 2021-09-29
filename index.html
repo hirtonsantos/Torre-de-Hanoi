@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Torre de Hanoi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        
+    
+
+    <div class="torres">
         <div class="torre">
-            <div class="vareta"></div>
-            <div class="disk1"></div>
-            <div class="disk2"></div>
-            <div class="disk3"></div>
-            <div class="disk4"></div>
-        </div>
-        
-        <div class="torre">
-            <div class="vareta"></div>
+            <div class="dropzone">
+                <div id="argola1" class="argola" draggable="true"></div>
+                <div id="argola2" class="argola" draggable="true"></div>
+                <div id="argola3" class="argola" draggable="true"></div>
+            </div>
         </div>
 
         <div class="torre">
-            <div class="vareta"></div>
+            <div class="dropzone">  
+            </div>
         </div>
+        
+        <div class="torre">
+            <div class="dropzone">
+            </div>
+        </div>
+    </div>
 
-    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
