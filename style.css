@@ -1,45 +1,47 @@
-.torres{
+.torres{    
     display: flex;
     justify-content: space-evenly;
-    
+    background-color: cornflowerblue;
 }
 
-.torre {
+.torre {    
     display: flex;
     justify-content: space-evenly;
-    
     min-width: 20%;
     padding: 16px;
+    height: 592px;
+    align-items: center;
 }
 
 .dropzone {
-    display: flex; 
-    flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: flex-start;
-    width: 5px;
-    height: 80px;
-    background-color: blue;
+    width: 30px;
+    height: 250px;
+    background-color: coral;
     border-radius: 50px;
 }
 
 #argola3 {
-    width: 30px;
+    width: 80px;
     background-color: red;
-    height: 10px;
+    height: 25px;
     border-radius: 50px;
 }
 
 #argola2 {
-    width: 40px;
+    width: 100px;
     background-color: green;
-    height: 10px;
+    height: 25px;
     border-radius: 50px;
 }
 
 #argola1 {
-    width: 50px;
+    width: 120px;
     background-color: brown;
-    height: 10px;
+    height: 25px;
     border-radius: 50px;
 }
+

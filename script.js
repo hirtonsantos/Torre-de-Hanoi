@@ -65,10 +65,11 @@ function dragover() {
     for (let i = 0; i < lastElement.length; i++){
         let resul = 'Você venceu!'
         if (lastElement[i]===argola3 & firsElement[i]===argola1){
-            console.log(resul) 
+            console.log(resul)      
     }
 }
 }
 
 console.log(dropzoneFirst)
+
 
