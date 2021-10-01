@@ -25,23 +25,40 @@
 }
 
 #argola3 {
-    width: 80px;
+    width: 40px;
     background-color: red;
     height: 25px;
     border-radius: 50px;
 }
 
 #argola2 {
-    width: 100px;
+    width: 60px;
     background-color: green;
     height: 25px;
     border-radius: 50px;
 }
 
 #argola1 {
-    width: 120px;
+    width: 80px;
     background-color: brown;
     height: 25px;
     border-radius: 50px;
 }
 
+@media (min-width: 400px){
+    #argola3 {
+        width: 80px;
+    }
+    
+    #argola2 {
+        width: 100px;
+    }
+    
+    #argola1 {
+        width: 120px;
+    }
+
+    .torres{    
+        background-color: pink;
+    }
+}
