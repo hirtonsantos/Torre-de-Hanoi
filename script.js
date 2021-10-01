@@ -48,6 +48,7 @@ dropzones.forEach(dropzone => {
     dropzone.addEventListener('dragover', dragover)
 })
 
+let contador = 0
 
 function dragover() {
     const argolaOver = document.querySelector('.arrastando')
@@ -55,12 +56,13 @@ function dragover() {
     console.log (this.children.length)
     if (this.children.length === 0) {
         this.appendChild(argolaOver)
+        contador = contador + 1
     } if (argolaOver.clientWidth < this.children[this.children.length -1].clientWidth){
         this.appendChild(argolaOver)
+        contador = contador + 1
     }
-
-    let lastElement = [dropzoneFirst.lastElementChild, dropzoneSecond.lastElementChild, dropzoneThird.lastElementChild]
-    let firsElement = [dropzoneFirst.firstElementChild, dropzoneSecond.firstElementChild, dropzoneThird.firstElementChild]
+    let lastElement = [dropzoneThird.lastElementChild]
+    let firsElement = [dropzoneThird.firstElementChild]
 
     for (let i = 0; i < lastElement.length; i++){
         let resul = 'Você venceu!'
@@ -68,6 +70,7 @@ function dragover() {
             console.log(resul)      
     }
 }
+console.log("resul: " + contador)
 }
 
 console.log(dropzoneFirst)
