@@ -8,7 +8,7 @@ Use uma variável para registrar qual modo o jogador está.
 
 Adicione um handler de clique em cada uma das três torres. 
 Use event.currentTarget dentro do handler de evento para determinar 
-qual torre foi clicada.
+qual torre foi clicada. 
 
 Use a propriedade DOM childElementCount para saber quantos discos estão em uma torre.
 
